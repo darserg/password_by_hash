@@ -6,7 +6,7 @@
 
 int main(int argc, char *argv[])
 {
-    char hash[] = argv[1];
-    char alph[] = argv[2];
+    char *hash = argv[1];
+    char *alph = argv[2];
     int n = atoi(argv[3]);
 }
