@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 // hash
-#include "md5-c.h"
+#include "hash/md5-c.h"
 
 // password variants
 
@@ -15,4 +15,5 @@ int main(int argc, char *argv[])
     int n = atoi(argv[3]);
 
     printf("%d", n + 1);
+    return 0;
 }
