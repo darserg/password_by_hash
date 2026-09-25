@@ -1,6 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
-// hashing
+
+// hash
+#include "md5-c.h"
 
 // password variants
 
